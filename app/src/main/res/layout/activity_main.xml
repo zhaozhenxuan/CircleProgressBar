@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.circleprogressbardemo.CircleProgressBar
+        android:id="@+id/fpmCircleProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:cpbBackgroundColor="@color/light_blue_200"
+        app:cpbBackgroundSize="9dp"
+        app:cpbFirstGradientColors="@color/light_green_700"
+        app:cpbFourthGradientColors="@color/red_500"
+        app:cpbGravity="center"
+        app:cpbLoadingDrawOther="true"
+        app:cpbLoadingDuration="3000"
+        app:cpbLoadingRepeatMode="Reverse"
+        app:cpbLoadingText="测试数据"
+        app:cpbMax="100"
+        app:cpbProgress="0"
+        app:cpbProgressDuration="1000"
+        app:cpbProgressMode="Progress"
+        app:cpbProgressSize="15dp"
+        app:cpbProgressValueTextColor="@color/md_lightBlue_A700"
+        app:cpbProgressValueTextSize="20sp"
+        app:cpbRadius="120dp"
+        app:cpbScaleType="None"
+        app:cpbSecondGradientColors="@color/light_green_500"
+        app:cpbShowProgressValue="false"
+        app:cpbShowSpecialDialValue="false"
+        app:cpbStartAngle="90"
+        app:cpbSweepAngle="360"
+        app:cpbThirdGradientColors="@color/orange_500"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
